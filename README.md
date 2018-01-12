@@ -1,4 +1,4 @@
-##RandomNumber skill
+## RandomNumber skill
 ---
 
 This skill picks a random number between 1 and 100
@@ -7,7 +7,7 @@ To get this done we need:
 
 * to assign a variable to generate a random number
 
-###Current state 
+### Current state 
 ---
 
 Working features:
@@ -34,6 +34,6 @@ TODO:
          “pick a number between 1 and 1000”
          “pick a number between 2 and 44”
          
-###Usage
+### Usage
 ---
 - PICK A NUMBER
