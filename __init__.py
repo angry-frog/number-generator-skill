@@ -23,7 +23,7 @@
 
 # Import statements: the list of outside modules you'll be using in your
 # skills, whether from other files in mycroft-core or from external libraries.
-from os.path import dirname
+#from os.path import dirname
 
 from adapt.intent import IntentBuilder
 from mycroft.skills.core import MycroftSkill
@@ -50,7 +50,7 @@ class RandomNumberSkill(MycroftSkill):
 	# This method loads the files needed for the skill's functioning, and
 	# creates and registers each intent that the skill uses
 	def initialize(self):
-			self.load_data_files(dirname(__file__))
+			#self.load_data_files(dirname(__file__))
 
 			random_number_intent = IntentBuilder("RandomNumberIntent").\
 				require("RandomNumberKeyword").build()
