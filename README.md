@@ -1,39 +1,22 @@
-## RandomNumber skill
----
-
+## random-number-skill
 This skill picks a random number between 1 and 100
 
-To get this done we need:
+## Description 
+* A fun skill to use in general.  
+* Use with kids to decide who gets what chore or who gets to choose board game 
+* whoever get closer to the number wins
 
-* to assign a variable to generate a random number
+## Examples 
+* "pick a number"
 
-### Current state 
----
+## Credits 
+angry-frog 
 
-Working features:
-
-* Picks random number between 1 and 100 and informs user
-
-
-Known issues:
-
-* on Picroft an error occurs after number spoken
-* IOError: [Errno 13] Permission denied: '/opt/     mycroft/skills/random-number-skill/settings.json'
-
-* as per troubleshooting.md in docs perform:
-
-            cd /opt/mycroft/skills/
-            sudo chown mycroft:mycroft -R number-generator-skill
-  
-TODO:
-
-* fix Known issue so extra steps are not needed
+## TODO:
 
 * add feature to change number range through voice command
 
          “pick a number between 1 and 1000”
          “pick a number between 2 and 44”
          
-### Usage
----
-- PICK A NUMBER
+
